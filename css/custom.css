@@ -7,6 +7,19 @@ a.twiiter-link{
     margin: 0px 18px 25px 18px;
 }
 
+.how-btn::before {
+    background: #11998e;
+    background: -webkit-linear-gradient(45deg, #38AA7d, #11998e);
+    background: -o-linear-gradient(45deg, #38AA7d, #11998e);
+    background: -moz-linear-gradient(45deg, #38AA7d, #11998e);
+    background: linear-gradient(45deg, #38AA7d, #11998e);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
 .l1-txt1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
