@@ -1,0 +1,21 @@
+a.twiiter-link{
+    color: white;
+}
+.how-countdown {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0px 18px 25px 18px;
+}
+
+.l1-txt1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.bg-g1 {
+    background: #11998e;
+    background: -webkit-linear-gradient(45deg, #38AA7d, #11998e);
+    background: -o-linear-gradient(45deg, #38AA7d, #11998e);
+    background: -moz-linear-gradient(45deg, #38AA7d, #11998e);
+    background: linear-gradient(45deg, #38AA7d, #11998e);
+}
