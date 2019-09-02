@@ -37,12 +37,16 @@ pre {
     border-bottom: 1px solid #f2f2f2;
 }
 
+.portfolio-title{
+	text-align: center;
+}
+
 .drescription {
 	padding-top: 2.3em;
     font-family: 'Roboto Bold', sans-serif;
-    font-size: 21px;
-    font-weight: 700;
-    letter-spacing: .5px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.0px;
 }
 
 .orange {
@@ -288,8 +292,7 @@ pre {
 
 				.header .logo .symbol img {
 					display: block;
-					width: 3.2em;
-					height: 2.5em;
+					height: 2.0em;
 				}
 
 
@@ -912,6 +915,8 @@ textarea#message {
 	.mfp-arrow {
 	top: 56%;
 }
+
+}
 @media screen and (min-width: 601px) {
 	.mfp-arrow {
 	top: 40%;
@@ -919,4 +924,5 @@ textarea#message {
 .mfp-content .white-popup .col-md-4 {
 	padding-right: 25px;
 	padding-left: 25px;
+}
 }

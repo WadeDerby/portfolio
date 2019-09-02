@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Volca&#769;n</title>
+		<title>Portfolio | Wade Derby - Web Developer</title>
 
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,7 +29,7 @@
 										<img src="images/nav_icon.svg" class="img-responsive" alt="Collapsable Navbar">
 									</a>
 									<a href="index.html" class="logo">
-										<span class="symbol"><img src="images/logo.png" alt="Title" /></span><span class="title">volca&#769;n</span>
+										<span class="symbol"><img src="images/logo.png" alt="Title" /></span>
 									</a>
 								</div>
 							</header>
@@ -38,7 +38,8 @@
 								<h2>Menu</h2>
 								<ul>
 									<li><a href="index.html">Home</a></li>
-									<li><a href="elements.html">Elements</a></li>
+									<li><a href="#portfolio">Portfolio</a></li>
+									<li><a href="#contact-section">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -52,12 +53,13 @@
 		<section class="main-body">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-9">
-						<p class="drescription">Highly motivated front-end developer with <span class="orange">international client portfolio.</span> Driven and permanently curious, I am now specialized in fixing front-end issues that other technology providers can't manage.</p>
+					<div class="col-md-12">
+						<p class="drescription">I am a frontend oriented full stack web developer. I am  more focused in delivering  user interaction and experience than simply building a robust system. I have over four years of experience in design and three years of experience in software development.</p>
 					</div>
 				</div>
 				<div class="tiles">
 					<div class="row">
+						<h3 class="portfolio-title">My work</h3>
 						<div class="col-md-6">
 							<div class="a">
 								<a href="#test-popup-1" class="open-popup-link">
@@ -475,47 +477,45 @@
 			</div>
 		</section>
 
-		<section class="contact">
+		<section id="contact-section" class="contact">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
 						<h1>GET IN TOUCH</h1>
-							<form>
+							<form method="POST" name="contact-form">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
-											<input type="text" class="form-control gt" name="name" id="name" placeholder="Name"/>
+											<input required type="text" class="form-control gt" name="name" id="name" placeholder="Name"/>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<input type="email" class="form-control gt" name="email" id="email" placeholder="Email" />
+											<input  required type="email" class="form-control gt" name="email" id="email" placeholder="Email" />
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-md-12">
 										<div class="from-group">
-											<textarea class="form-control gt" rows="2" name="message" id="message" placeholder="Message..."></textarea>
+											<textarea required class="form-control gt" rows="2" name="message" id="message" placeholder="Message..."></textarea>
 										</div>
 									</div>
 								</div>
+								<div class="form-group"  align="right">
+									<div class="col-sm-offset-2 col-sm-10">
+										<input class="btn btn-tobais btn-send-2" type="submit" value="SEND">
+									</div>
+								</div>
 							</form>
-							<div class="form-group"  align="right">
-							    <div class="col-sm-offset-2 col-sm-10">
-							      <a href="#" type="submit" class="btn btn-tobais btn-send-2">SEND</a>
-							    </div>
-							</div>
+							
 						</div>
 					<div class="col-md-4">
 						<h1>CONTACT INFO</h1>
 							<p class="contact-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus voluptatum necessi tatibus.
+								I am currently available for speaking gigs and freelance work. I'm open to mentoring junior frontend developers and UIX designers as well.
 							</p>
-							<p><Strong>Address: </Strong> 36th Street, Block A, Mischigan, USA</p>
-							<p><Strong>Call:</Strong> 444 123 025 12</p>						
-							<p><Strong>Fax: </Strong>444 123 025 12</p>						
-							<p><Strong>Email: </Strong>color@gmail.com</p>						
+							<p><Strong>Email: </Strong>derbywaheed@gmail.com</p>						
 					</div>
 				</div>				
 			</div>
