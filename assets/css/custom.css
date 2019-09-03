@@ -1,0 +1,19 @@
+.website-btn{
+    padding: 15px 15px;
+}
+
+.website-btn > a{
+    transition: all 0.4s ease-in-out;
+    border-radius: 25px;
+    font-size: 14px;
+    color: white;
+    background-color: #4641ff;
+    margin-top: 30px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.website-btn > a:hover{
+    cursor: pointer;
+    background-color: #5c63ff;
+}
